@@ -1,7 +1,7 @@
 app_name = "scope_app"
 app_title = "Scope"
-app_publisher = "Software engineer"
-app_description = "Researcher lab"
+app_publisher = "SE"
+app_description = "Project managment"
 app_email = "nutchajunthong@gmail.com"
 app_license = "agpl-3.0"
 

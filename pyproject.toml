@@ -1,9 +1,9 @@
 [project]
 name = "scope_app"
 authors = [
-    { name = "Software engineer", email = "nutchajunthong@gmail.com"}
+    { name = "SE", email = "nutchajunthong@gmail.com"}
 ]
-description = "Researcher lab"
+description = "Project managment"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

@@ -1,6 +1,6 @@
 ### Scope
 
-Researcher lab
+Project managment
 
 ### Installation
 

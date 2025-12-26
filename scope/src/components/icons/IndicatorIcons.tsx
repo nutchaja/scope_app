@@ -4,6 +4,7 @@ import high from '../../assets/high.png';
 import low from '../../assets/low.png';
 import exclude from '../../assets/Exclude.png';
 import setting from '../../assets/setting.png';
+import setting2 from '../../assets/setting2.png'
 
 export function Normal(): React.JSX.Element {
   return (
@@ -93,4 +94,13 @@ export function Setting(): React.JSX.Element {
       src={setting}
     />
   );
+}
+
+export function Setting2(): React.JSX.Element{
+  return (
+    <img
+      className='w-[40px] h-[60px] object-contain'
+      alt='Setting2'
+      src={setting2} />
+  )
 }

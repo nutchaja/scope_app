@@ -1,19 +1,15 @@
-const { isOpen: isRegisterOpen, onOpen: onRegisterOpen, onOpenChange: onRegisterOpenChange } = useDisclosure();
+import { Button, Checkbox, Input, ModalBody, ModalContent, ModalFooter, ModalHeader, useDisclosure } from "@heroui/react";
+import CustomModalRegister from "./CustomModalRegister";
+import { PersonPlusBlack } from "../icon/PersonPlusBlack";
+import { PersonPlus } from "../icon/PersonPlus";
 
-const CustomModalRegister = extendVariants(Modal, {
-    variants: {
-      placement: {
-        "side-right": {
-          wrapper: "justify-end pt-10 items-stretch",
-          base: "mx-0 my-0 max-w-xl h-[840px]",
-        },
-      },
-    },
-  });
+ function RegisterModal(){
+    const { isOpen: isRegisterOpen, onOpen: onRegisterOpen, onOpenChange: onRegisterOpenChange } = useDisclosure();
+    return(
+      <div>
 
-  export function RegisterModal(){
-    return (
-        <CustomModalRegister className='bg-[#F8F8FF]' isOpen={isRegisterOpen} placement='side-right' onOpenChange={onRegisterOpenChange}>
+            <Button onPress={onRegisterOpen} className='bg-[#FCFCFC] shadow-md' size="lg"> <PersonPlus /> สมัครสมาชิก </Button>
+            <CustomModalRegister className='bg-[#F8F8FF]' isOpen={isRegisterOpen} placement='side-right' onOpenChange={onRegisterOpenChange}>
               <ModalContent>
                 {(onClose) => (
                   <>
@@ -105,5 +101,8 @@ const CustomModalRegister = extendVariants(Modal, {
                 )}
               </ModalContent>
             </CustomModalRegister>
-    )
-  }
+          </div>
+  )
+ }
+ 
+ export default RegisterModal;

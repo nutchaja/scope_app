@@ -72,5 +72,5 @@ export function AirChart() {
     }
   }, []);
 
-  return <div ref={chartRef} style={{ width: '95%', height: '400px' }} />;
+  return <div ref={chartRef} style={{ width: '100%', height: '300px' }} />;
 }

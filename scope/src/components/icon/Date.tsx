@@ -1,6 +1,6 @@
 import date from '../../assets/date.png'
 
-export function Date() {
+export function Datee() {
   return (
     <img
       className='w-[25px] h-[25px] object-contain'

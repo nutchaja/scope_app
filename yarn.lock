@@ -312,6 +312,20 @@
     "@heroui/system" "2.4.25"
     "@heroui/system-rsc" "2.3.21"
 
+"@heroui/switch@^2.2.26":
+  version "2.2.26"
+  resolved "https://registry.npmjs.org/@heroui/switch/-/switch-2.2.26.tgz"
+  integrity sha512-c/FCzromB+ww8AObgA0H//jOrhxyn0MllWVeEwMXac7O6z/N4B+fJ8dLCu/vu1zchySFLuDq/PaETEMJ7hKW4A==
+  dependencies:
+    "@heroui/react-utils" "2.1.14"
+    "@heroui/shared-utils" "2.1.12"
+    "@heroui/use-safe-layout-effect" "2.1.8"
+    "@react-aria/focus" "3.21.3"
+    "@react-aria/interactions" "3.26.0"
+    "@react-aria/switch" "3.7.9"
+    "@react-aria/visually-hidden" "3.8.29"
+    "@react-stately/toggle" "3.9.3"
+
 "@heroui/system-rsc@2.3.21":
   version "2.3.21"
   resolved "https://registry.npmjs.org/@heroui/system-rsc/-/system-rsc-2.3.21.tgz"
@@ -660,6 +674,29 @@
   dependencies:
     "@swc/helpers" "^0.5.0"
 
+"@react-aria/switch@3.7.9":
+  version "3.7.9"
+  resolved "https://registry.npmjs.org/@react-aria/switch/-/switch-3.7.9.tgz"
+  integrity sha512-RZtuFRXews0PBx8Fc2R/kqaIARD5YIM5uYtmwnWfY7y5bEsBGONxp0d+m2vDyY7yk+VNpVFBdwewY9GbZmH1CA==
+  dependencies:
+    "@react-aria/toggle" "^3.12.3"
+    "@react-stately/toggle" "^3.9.3"
+    "@react-types/shared" "^3.32.1"
+    "@react-types/switch" "^3.5.15"
+    "@swc/helpers" "^0.5.0"
+
+"@react-aria/toggle@^3.12.3":
+  version "3.12.3"
+  resolved "https://registry.npmjs.org/@react-aria/toggle/-/toggle-3.12.3.tgz"
+  integrity sha512-mciUbeVP99fRObnH5qLFrkKXX+5VKeV6BhFJlmz1eo3ltR/0xZKnUcycA2CGzmqtB70w09CAhr8NMEnpNH8dwQ==
+  dependencies:
+    "@react-aria/interactions" "^3.26.0"
+    "@react-aria/utils" "^3.32.0"
+    "@react-stately/toggle" "^3.9.3"
+    "@react-types/checkbox" "^3.10.2"
+    "@react-types/shared" "^3.32.1"
+    "@swc/helpers" "^0.5.0"
+
 "@react-aria/toolbar@3.0.0-beta.22":
   version "3.0.0-beta.22"
   resolved "https://registry.npmjs.org/@react-aria/toolbar/-/toolbar-3.0.0-beta.22.tgz"
@@ -832,6 +869,13 @@
   version "3.32.1"
   resolved "https://registry.npmjs.org/@react-types/shared/-/shared-3.32.1.tgz"
   integrity sha512-famxyD5emrGGpFuUlgOP6fVW2h/ZaF405G5KDi3zPHzyjAWys/8W6NAVJtNbkCkhedmvL0xOhvt8feGXyXaw5w==
+
+"@react-types/switch@^3.5.15":
+  version "3.5.15"
+  resolved "https://registry.npmjs.org/@react-types/switch/-/switch-3.5.15.tgz"
+  integrity sha512-r/ouGWQmIeHyYSP1e5luET+oiR7N7cLrAlWsrAfYRWHxqXOSNQloQnZJ3PLHrKFT02fsrQhx2rHaK2LfKeyN3A==
+  dependencies:
+    "@react-types/shared" "^3.32.1"
 
 "@swc/helpers@^0.5.0":
   version "0.5.17"

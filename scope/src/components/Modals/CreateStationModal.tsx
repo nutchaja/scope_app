@@ -47,8 +47,10 @@ export function CreateStationModal(){
                                 <div> สุขภาพสัตว์ทดลอง </div>
                                 <div className="text-[#FF383C]"> * </div>
                             </div>
+                             <div className="overflow-x-auto w-full">
+                            <div className="flex gap-4 flex-nowrap min-w-max">
                           <div className="flex gap-4">
-                            <div className="bg-[#F9F9F9] opactiy-92 shadow-[0_0_5px_rgba(0,0,0,0.2)] pt-3 pl-1 rounded-xl h-[480px] w-[330px] overflow-x-auto">
+                            <div className="bg-[#F9F9F9] opactiy-92 shadow-[0_0_5px_rgba(0,0,0,0.2)] pt-3 pl-1 rounded-xl h-[480px] w-[330px]">
                               
                               <div className="flex items-center gap-1">
                                 <TempSmall/>
@@ -118,7 +120,7 @@ export function CreateStationModal(){
 
                             </div>
 
-                            <div className="bg-[#F9F9F9] opactiy-92 shadow-[0_0_5px_rgba(0,0,0,0.2)] pt-3 pl-1 rounded-xl h-[480px] w-[330px] overflow-x-auto">
+                            <div className="bg-[#F9F9F9] opactiy-92 shadow-[0_0_5px_rgba(0,0,0,0.2)] pt-3 pl-1 rounded-xl h-[480px] w-[330px]">
                               
                               <div className="flex items-center gap-1">
                                 <TempSmall/>
@@ -186,6 +188,8 @@ export function CreateStationModal(){
                               <input type="text" name="temperature" placeholder="Write Here..." className="ml-3 pl-4 pr-4 py-2 pt-3 pb-7  rounded-xl w-full focus:ring focus:ring-blue-300 shadow-sm text-[14px]"></input>
                             </div>
                           </div>
+                            </div>
+                            </div>
                             </div>
                           
                             

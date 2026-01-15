@@ -81,7 +81,7 @@ function ResearcherModal(){
                                 </div>
 
                                 <div>
-                                    <button className="flex gap-3">
+                                    <button className="flex gap-3" onClick={onClose}>
                                         <ExitIcon/>
                                         <div className="text-[#FF383C]">
                                             ออกจากระบบ

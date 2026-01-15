@@ -3,7 +3,7 @@ import { Highsmall } from "../icon/Highsmall";
 import { Low } from "../icon/Low";
 import { Setting3 } from "../icon/Setting3";
 import { SettingBlack } from "../icon/SettingBlack";
-import { FolderImage } from "../icon/FolderImage";
+import FolderImage from "../icon/FolderImage";
 import { TempSmall } from "../icon/Tempsmall";
 import { AddNumber } from "../icon/AddNumber";
 import { AddSensor } from "../icon/AddSensor";
@@ -205,7 +205,7 @@ export function SettingResearchModal(){
                               <span> ลบ Station </span>
                             </Button>
 
-                            <Button className=" bg-[#21B55D] text-[#FCFCFC] min-w-[130px] px-5 py-3 rounded-3xl">
+                            <Button className=" bg-[#21B55D] text-[#FCFCFC] min-w-[130px] px-5 py-3 rounded-3xl" onPress={onClose}>
                               <UpdateData/>
                               <span> อัพเดทข้อมูล </span>
                             </Button>

@@ -1,16 +1,14 @@
 import { Button, DatePicker, Modal, ModalBody, ModalContent, ModalHeader, useDisclosure,ScrollShadow, ModalFooter } from "@heroui/react";
 import { Highsmall } from "../icon/Highsmall";
 import { Low } from "../icon/Low";
-import { Setting3 } from "../icon/Setting3";
-import { SettingBlack } from "../icon/SettingBlack";
-import { FolderImage } from "../icon/FolderImage";
+import FolderImage from "../icon/FolderImage";
 import { TempSmall } from "../icon/Tempsmall";
 import { AddNumber } from "../icon/AddNumber";
 import { AddSensor } from "../icon/AddSensor";
-import { DeleteStation } from "../icon/DeleteStation";
 import { UpdateData } from "../icon/UpdateData";
 import { CreateStationIcon } from "../icon/createStationIcon";
 import { CreateStationBlackIcon } from "../icon/CreateStationBlackIcon";
+import UploadFile from "../Button/UploadFile";
 
 export function CreateStationModal(){
     const { isOpen: isSettingResearchOpen, onOpen: onSettingResearchOpen, onOpenChange: onSettingResearchOpenChange } = useDisclosure();
@@ -30,19 +28,10 @@ export function CreateStationModal(){
                           </ModalHeader>
                           <ModalBody>
                             <div className="text-[#71717A]">
-                                Station: x
+                                Station: x+1
                             </div>
 
-                            <div className="flex gap-1">
-                                <div> รูปสัตว์ทดลอง </div>
-                                <div className="text-[#FF383C]"> * </div>
-                            </div>
-                            <div className="relative bg-white">
-                              <span className="absolute inset-y-0 left-2 flex items-center">
-                                <FolderImage/>                                
-                              </span>
-                              <input type="text" name="temperature" placeholder="temperature.png" className="pl-10 pr-4 py-2 pt-3 pb-3  rounded-xl w-full focus:ring focus:ring-blue-300 shadow-md text-sm"></input>
-                            </div>
+                            <UploadFile/>
                             <div className="flex gap-1">
                                 <div> สุขภาพสัตว์ทดลอง </div>
                                 <div className="text-[#FF383C]"> * </div>

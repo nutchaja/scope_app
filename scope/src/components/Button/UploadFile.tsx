@@ -29,10 +29,6 @@ export default function UploadFile() {
 
   return (
     <div>
-      <div className="flex gap-1">
-        <div> รูปสัตว์ทดลอง </div>
-        <div className="text-[#FF383C]"> * </div>
-      </div>
 
       {/* preview อยู่ด้านบนตามที่ขอ */}
       {preview && (
